@@ -6,4 +6,4 @@ Here's my solution of the assignments to trace my learning process. The codes ar
 Week  | Assignment Name  | Score
 :----: | :-----: | ------ 
 1  | [Percolation](https://github.com/neekoleung/coursera-algorithms-by-princeton/tree/master/percolation) | 100 / 100
-2  | Deques and Randomized Queues | 100 / 100 
+2  | [Deques and Randomized Queues](https://github.com/neekoleung/coursera-algorithms-by-princeton/tree/master/queues) | 100 / 100 
