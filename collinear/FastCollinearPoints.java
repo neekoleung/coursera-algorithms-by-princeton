@@ -32,18 +32,23 @@ public class FastCollinearPoints {
 
         for (int i = 0; i < copyPoints.length; i++) {
             Point p = copyPoints[i];
+            // copy the array
             Point[] pointsBySlope = copyPoints.clone();
+            // sort the points by their slope with p
             Arrays.sort(pointsBySlope, p.slopeOrder());
 
             int n = 1;
             while (n < pointsBySlope.length) {
                 LinkedList<Point> candidates = new LinkedList<>();
+                // calculate the slope of p and the first point after p as reference slope
                 final double SLOPE_OF_P = p.slopeTo(pointsBySlope[n]);
+                
                 do {
+                    // count the points if its slope is equal to the reference slope
                     candidates.add(pointsBySlope[n++]);
                 } while (n < pointsBySlope.length && p.slopeTo(pointsBySlope[n]) == SLOPE_OF_P);
 
-
+                // Maximum line segment: if at least 3 more points has the same slope with p, and p is the smallest point in the list
                 if (candidates.size() >= 3 && p.compareTo(candidates.peek()) < 0) {
                     Point min = p;
                     Point max = candidates.removeLast();
