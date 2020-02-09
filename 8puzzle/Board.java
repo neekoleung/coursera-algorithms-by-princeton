@@ -1,6 +1,6 @@
 /* *****************************************************************************
- *  Name:
- *  Date:
+ *  Name: Neeko Leung
+ *  Date: Feb 9th
  *  Description:
  **************************************************************************** */
 
@@ -13,7 +13,7 @@ public class Board {
     private int rowOfBlank;
     private int colOfBlank;
     // create a board from an n-by-n array of tiles,
-    // where tiles[row][col] = tile at (row, col)
+    // where tiles[i][j] = tile at (i, j)
     public Board(int[][] tiles) {
         if (tiles == null) throw new IllegalArgumentException("The input Board is null!");
         this.tiles = copyOf(tiles);
