@@ -9,3 +9,4 @@ Week  | Assignment Name  | Score
 2  | [Deques and Randomized Queues](https://github.com/neekoleung/coursera-algorithms-by-princeton/tree/master/queues) | 100 / 100 
 3  | [Collinear Points](https://github.com/neekoleung/coursera-algorithms-by-princeton/tree/master/collinear) | 100 / 100
 4  | [8 Puzzle](https://github.com/neekoleung/coursera-algorithms-by-princeton/tree/master/8puzzle) | 100 / 100
+5  | [Kd-Trees](https://github.com/neekoleung/coursera-algorithms-by-princeton/tree/master/kdtree) | 100 / 100
